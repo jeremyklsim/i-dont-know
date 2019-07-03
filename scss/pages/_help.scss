@@ -1,0 +1,30 @@
+.logo-sml{
+ text-align: center;
+    img{
+        width: 600px;
+    }
+}
+
+.help-text{
+    text-align: center;
+    padding: 0px 160px;
+
+    h2{
+        color: $blue;
+        font-weight: bold;
+        font-size:70px;
+    }
+
+    p{
+        font-size:30px;
+        color: black;
+    }
+}
+
+.ask-for-assistance {
+    margin-top:50px;
+}
+
+.help-section {
+    margin-top:80px;
+}

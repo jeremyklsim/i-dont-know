@@ -1,0 +1,80 @@
+.fixedbuttons {
+    background-color: #fff;
+    padding-top:50px;
+    padding-bottom:50px;
+    box-shadow:
+        inset 0 -8px 4px 4px rgb(255,255,255),
+        inset 0 1px 4px 0px rgba(50, 50, 50, 0.40);
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a :hover {
+    color: #000;
+}
+
+a :visited {
+    text-decoration: none;
+}
+
+.button{ 
+    background-color: $blue;
+    color: #fff;
+    padding: 40px;
+    margin:0px 80px;
+    border-radius: 10px !important;
+   
+}
+
+.cancel {
+    background-color: $red;
+}
+
+.assistance {
+    background-color: $red;
+    // text-align:end;
+}
+
+.help-me {
+    text-align: center;
+    padding:20px;
+
+    h6 {
+        font-size: 40px;
+        color:black;
+    }
+
+    img {
+        width:30%;
+    }
+}
+
+.help-icon {
+
+    text-align: center;
+
+    img {
+        margin-top: 5px;
+        width:29%;
+    }
+}
+
+.help-icon-end {
+
+    text-align: end;
+
+    img {
+        margin-right: 50px;
+        margin-top: 5px;
+        width:20%;
+    }
+}
+
+.back-button {
+    font-size:20px;
+    font-weight: 500;
+}

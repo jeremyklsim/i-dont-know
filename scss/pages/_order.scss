@@ -1,0 +1,117 @@
+.p-bar{
+    position:fixed;
+    width:100%;
+    z-index: 40;
+    margin-bottom: 100px;
+}
+
+.progress-bar {
+    background-color:$blue;
+    border-color: #fff;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0px;
+   
+}
+
+.progress-bar2 {
+    background-color: $blue-light;
+    border-color: #fff;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0px;
+   
+}
+
+.combo-img{
+    width: 500px;
+    text-align: center;
+    border-color: #000;
+
+    
+    h4{
+        font-size: 30px;
+        font-weight: 700;
+
+    }
+
+    p{
+        color:#000;
+        padding:0px 1px;
+        margin: 25px;
+    }
+}
+
+.type{
+    color:#000;
+}
+
+.margin-left{
+    margin-left: 30px;
+
+ h2{
+    color:$blue;
+}
+}
+
+.food-types{
+    position:fixed;
+    background-color: #fff;
+    z-index: 34;
+    width:100%;
+    
+
+
+.food-type{
+    background-color: #f9f9f9;
+    margin: 50px 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.25), 0 10px 10px rgba(204, 204, 204, 0.22);
+    margin-top:165px;
+    @include rounded(5px);
+
+}
+
+}
+
+.top-space{
+    padding-top:410px;
+}
+
+
+.price-and-cart {
+
+}
+
+
+.price{
+    h1{
+        color:#fff;
+        margin-bottom: 80px;
+        font-size: 25px;
+        background-color: $blue;
+        width: 110px;
+        text-align: center;
+    }
+    
+}
+
+// Last minute thought, i would have put an add to cart button on each food item and a modal dialogue box to come up when it is clicked
+// .add-to-cart{
+//     h5{
+//         color:$blue;
+//         // margin-bottom: 80px;
+//         font-size: 15px;
+//         background-color: #ebebeb;
+//         width: 110px;
+//         text-align: center;
+//     }
+// }
+
+.type-title{
+    // background-color: #ebebeb;
+    color: $blue;
+    
+    h2 {
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,16 @@
+.index-button{
+    font-size:18px;
+    @include mq('tablet-wide', 'max'){
+        font-size:34px;
+    }
+}
+
+.firstlogo{
+    @include mq('tablet-wide', 'max'){
+        margin-top:200px;
+    }
+}
+
+.margin-top{
+    margin-top:100px;
+}

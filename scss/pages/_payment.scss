@@ -1,0 +1,27 @@
+.payment-icon{
+    width:70%;
+    text-align: center;
+
+    img{
+        width:80%;
+    }
+}
+
+.swipe{
+    text-align: center;
+    margin-bottom:150px;
+
+    h3{
+        font-weight: bold;
+        font-size: 80px;
+        color: $blue;
+    }
+}
+
+button {
+    padding: 20px 40px;
+    background-color: $blue;
+    color:white;
+    @include rounded(10px);
+    margin-left:80px;
+}
